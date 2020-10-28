@@ -1,6 +1,5 @@
-Python 3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)] :: Ana
-conda, Inc. on win32
-Type "help", "copyright", "credits" or "license" for more information.
+1.
+(a)
 >>> a=-888
 >>> b=100
 >>> c=10
@@ -22,6 +21,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 123
 >>> print(round(123.456,2))
 123.46
+(b)
 >>> import math
 >>> a=math.fabs(-123.45)
 >>> print(a)
@@ -48,6 +48,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> g=math.sqrt(1000000)
 >>> print(g)
 1000.0
+(c)
 >>> m=math.tan(0)
 >>> print(m)
 0.0
@@ -57,7 +58,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> p=math.degrees(2*math.pi)
 >>> print(p)
 360.0
->>> q=math.radians(360)
 >>> print(q)
 6.283185307179586
+(d)
+>>> print(x)
+Apple i8
+>>> y=ord('Z')
+>>> print(y)
+90
+>>> z=chr(100)
+>>> print(z)
+d
 >>>
+
